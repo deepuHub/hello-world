@@ -5,3 +5,5 @@ SCHTASKS > SCHTASKS.txt
 
 #To schedule the Fitbit sync to run at 15:06 daily starting 05/17/2016 to 05/17/2017
 SCHTASKS /Create /SC DAILY /ST 15:06 /SD 05/17/2016 /ED 05/17/2017 /TN FitBitSync /TR "cmd.exe /c 'D:\Program Files (x86)\Fitbit Connect\Fitbit Connect.exe'" /IT
+
+Removed the scheduled task.
